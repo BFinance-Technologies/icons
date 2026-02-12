@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgLineChartLine = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M5 3V19H21V21H3V3H5ZM20.293 6.293L21.707 7.707L16 13.414L13 10.415L8.707 14.707L7.293 13.293L13 7.586L16 10.585L20.293 6.293Z" />
+  </svg>
+);
+export default SvgLineChartLine;

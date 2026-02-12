@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgHtml5Line = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M12 18.178L7.38 16.922L7.052 13.378H9.322L9.48 15.222L12 15.889L14.52 15.222L14.78 12.356H6.96L6.325 5.678H17.675L17.448 7.888H8.822L9.026 10.144H17.243L16.619 16.922L12 18.178ZM3 2H21L19.377 20L12 22L4.623 20L3 2ZM5.188 4L6.49 18.434L12 19.928L17.51 18.434L18.812 4H5.188Z" />
+  </svg>
+);
+export default SvgHtml5Line;

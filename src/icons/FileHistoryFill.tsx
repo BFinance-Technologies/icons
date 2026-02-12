@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgFileHistoryFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M16 2L21 6.999V21.009C21 21.556 20.555 22 20.007 22H3.993C3.445 22 3 21.545 3 21.008V2.992C3 2.444 3.445 2 3.993 2H16ZM13 9H11V15H16V13H13V9Z" />
+  </svg>
+);
+export default SvgFileHistoryFill;

@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgItalic = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M15 20H7V18H9.927L12.043 6H9V4H17V6H14.073L11.957 18H15V20Z" />
+  </svg>
+);
+export default SvgItalic;

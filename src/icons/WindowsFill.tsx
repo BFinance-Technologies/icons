@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgWindowsFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M3 5.479L10.377 4.463V11.59H3V5.48V5.479ZM3 18.521L10.377 19.538V12.498H3V18.521ZM11.188 19.646L21 21V12.498H11.188V19.646ZM11.188 4.354V11.59H21V3L11.188 4.354Z" />
+  </svg>
+);
+export default SvgWindowsFill;

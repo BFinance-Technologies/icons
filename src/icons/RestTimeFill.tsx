@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgRestTimeFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M11 6V14H19C19 18.418 15.418 22 11 22C6.582 22 3 18.418 3 14C3 9.665 6.58 6 11 6ZM21 2V4L15.673 10H21V12H13V10L18.326 4H13V2H21Z" />
+  </svg>
+);
+export default SvgRestTimeFill;

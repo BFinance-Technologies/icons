@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgArrowRightSLine = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M13.1719 11.9997L8.22192 7.04974L9.63592 5.63574L15.9999 11.9997L9.63592 18.3637L8.22192 16.9497L13.1719 11.9997Z" />
+  </svg>
+);
+export default SvgArrowRightSLine;

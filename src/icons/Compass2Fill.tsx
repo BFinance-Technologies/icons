@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgCompass2Fill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M18.328 4.258L10.586 12L12 13.414L19.742 5.672C21.2051 7.45601 22.0032 9.69276 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C14.4 2 16.604 2.847 18.328 4.258Z" />
+  </svg>
+);
+export default SvgCompass2Fill;

@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTwitchLine = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M4.3 3H21V14.7L16.3 19.4H12.4L9.9 21.8H7V19.4H3V6.2L4.3 3ZM5 17.4H9V19.8H9.095L11.595 17.4H15.472L19 13.872V5H5V17.4ZM15 8H17V12.7H15V8ZM15 8H17V12.7H15V8ZM10 8H12V12.7H10V8Z" />
+  </svg>
+);
+export default SvgTwitchLine;

@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgVuejsLine = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M3.316 3L12 18L20.684 3H23L12 22L1 3H3.316ZM7.658 3L12 10.5L16.342 3H18.658L12 14.5L5.342 3H7.658Z" />
+  </svg>
+);
+export default SvgVuejsLine;

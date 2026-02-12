@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTumblrLine = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M8 8C9.075 8 11.497 7.327 11.497 3.5V2H12.997V8H18V10H12.997V12.91C13 15.39 13 16.595 13 17C12.998 19.208 14.615 20.4 17.785 20.4V22H15.543C13.141 22.002 10.997 19.965 10.997 17.455V10H7V8H8Z" />
+  </svg>
+);
+export default SvgTumblrLine;

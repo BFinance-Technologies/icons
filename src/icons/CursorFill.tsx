@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgCursorFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path d="M13.91 12.3601L17 20.8541L14.182 21.8801L11.09 13.3861L6.91797 16.5421L8.40797 1.63306L19.134 12.0961L13.91 12.3601Z" />
+  </svg>
+);
+export default SvgCursorFill;
