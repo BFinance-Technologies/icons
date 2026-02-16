@@ -1,0 +1,23 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTonga = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <g clipPath="url(#clip0_579_34517)">
+      <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" />
+      <path d="M7.82625 6.26076V4.69556H6.261V6.26076H4.6958V7.82601H6.261V9.39121H7.82625V7.82601H9.39146V6.26076H7.82625Z" />
+      <path d="M12 0V12C5.37262 12 2.73867 12 0 12C0 18.6274 5.37262 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37262 18.6274 0 12 0Z" />
+    </g>
+    <defs>
+      <clipPath id="clip0_579_34517">
+        <rect width={24} height={24} />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgTonga;

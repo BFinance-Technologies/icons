@@ -1,0 +1,23 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgSpain = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <g clipPath="url(#clip0_579_34377)">
+      <path d="M0 12.0001C0 13.4679 0.264047 14.874 0.746391 16.174L12 17.2175L23.2536 16.174C23.736 14.874 24 13.4679 24 12.0001C24 10.5322 23.736 9.12618 23.2536 7.8262L12 6.78271L0.746391 7.8262C0.264047 9.12618 0 10.5322 0 12.0001H0Z" />
+      <path d="M23.2538 7.82611C21.5583 3.25655 17.1598 0 12.0002 0C6.84061 0 2.4421 3.25655 0.746582 7.82611H23.2538Z" />
+      <path d="M0.746582 16.1738C2.4421 20.7434 6.84061 23.9999 12.0002 23.9999C17.1598 23.9999 21.5583 20.7434 23.2538 16.1738H0.746582Z" />
+    </g>
+    <defs>
+      <clipPath id="clip0_579_34377">
+        <rect width={24} height={24} />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgSpain;

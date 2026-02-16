@@ -1,0 +1,25 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgPanama = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <g clipPath="url(#clip0_579_34068)">
+      <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" />
+      <path d="M0 12C0 18.6274 5.37262 24 12 24C12 19.4365 12 12 12 12C12 12 4.17389 12 0 12Z" />
+      <path d="M12 0C18.6274 0 24 5.37262 24 12C19.4365 12 12 12 12 12C12 12 12 4.17389 12 0Z" />
+      <path d="M7.14313 4.17383L7.92017 6.5653H10.4347L8.40041 8.04327L9.17741 10.4347L7.14313 8.95672L5.10884 10.4347L5.88584 8.04327L3.85156 6.5653H6.36608L7.14313 4.17383Z" />
+      <path d="M16.857 13.5652L17.634 15.9567H20.1486L18.1142 17.4346L18.8913 19.8261L16.857 18.3481L14.8227 19.8261L15.5997 17.4346L13.5654 15.9567H16.0799L16.857 13.5652Z" />
+    </g>
+    <defs>
+      <clipPath id="clip0_579_34068">
+        <rect width={24} height={24} />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgPanama;

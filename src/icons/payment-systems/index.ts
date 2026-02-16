@@ -1,0 +1,13 @@
+export { default as Amazon } from "./Amazon";
+export { default as ApplePay } from "./ApplePay";
+export { default as BitcoinCash } from "./BitcoinCash";
+export { default as Bitcoin } from "./Bitcoin";
+export { default as Etherium } from "./Etherium";
+export { default as GooglePay } from "./GooglePay";
+export { default as Mastercard } from "./Mastercard";
+export { default as Payoneer } from "./Payoneer";
+export { default as Paypal } from "./Paypal";
+export { default as ShopPay } from "./ShopPay";
+export { default as Skrill } from "./Skrill";
+export { default as Stripe } from "./Stripe";
+export { default as Visa } from "./Visa";

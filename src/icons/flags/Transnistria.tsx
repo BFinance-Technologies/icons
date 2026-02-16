@@ -1,0 +1,23 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTransnistria = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <g clipPath="url(#clip0_579_34522)">
+      <path d="M23.5868 8.86955C22.2098 3.76036 17.5445 0 12.0002 0C6.45585 0 1.79057 3.76036 0.413574 8.86955L12.0002 9.39131L23.5868 8.86955Z" />
+      <path d="M0.413574 15.1304C1.79057 20.2395 6.45585 24 12.0002 24C17.5445 24 22.2098 20.2396 23.5868 15.1304L12.0002 14.6086L0.413574 15.1304Z" />
+      <path d="M23.5866 8.86963H0.413391C0.144375 9.86774 0 10.9169 0 12.0001C0 13.0832 0.144375 14.1324 0.413391 15.1305H23.5867C23.8556 14.1324 24 13.0832 24 12.0001C24 10.9169 23.8556 9.86774 23.5866 8.86963Z" />
+    </g>
+    <defs>
+      <clipPath id="clip0_579_34522">
+        <rect width={24} height={24} />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgTransnistria;

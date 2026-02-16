@@ -1,0 +1,24 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgNorfolkIsland = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <g clipPath="url(#clip0_579_33997)">
+      <path d="M17.2175 1.19072C15.6399 0.427875 13.87 0 12.0001 0C10.1302 0 8.36037 0.427875 6.78274 1.19072L5.73926 12L6.78274 22.8093C8.36037 23.5721 10.1302 24 12.0001 24C13.87 24 15.6399 23.5721 17.2175 22.8093L18.261 12L17.2175 1.19072Z" />
+      <path d="M6.78263 1.19116C2.76867 3.13207 0 7.24249 0 12C0 16.7576 2.76867 20.868 6.78263 22.8089V1.19116Z" />
+      <path d="M17.2173 1.19116V22.8089C21.2312 20.868 23.9999 16.7575 23.9999 12C23.9999 7.24254 21.2312 3.13207 17.2173 1.19116Z" />
+      <path d="M15.1305 15.6523L12.0001 5.73926L8.86963 15.6523H11.2175V18.261H12.7827V15.6523H15.1305Z" />
+    </g>
+    <defs>
+      <clipPath id="clip0_579_33997">
+        <rect width={24} height={24} />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgNorfolkIsland;
